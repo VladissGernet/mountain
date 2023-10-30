@@ -214,7 +214,167 @@
       </a>
     </section>
   </section>
-
+  <article class="blog">
+    <h2 class="blog__title">
+      Блог
+    </h2>
+    <section class="blog__column column">
+      <h3 class="visually-hidden">
+        Колонка новостей.
+      </h3>
+      <ul class="news__list">
+        <li class="news__item">
+          <a class="news__link" href="#">
+            <h3 class="news__title">
+              Как подготовиться к первому восхождению на вершину
+            </h3>
+            <time class="news__date" datetime="15-01-2020">15 января, 2020</time>
+          </a>
+        </li>
+        <li class="news__item">
+          <a class="news__link" href="#">
+            <h3 class="news__title">
+              Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля
+            </h3>
+            <time class="news__date" datetime="10-01-2020">10 января, 2020</time>
+          </a>
+        </li>
+        <li class="news__item">
+          <a class="news__link" href="#">
+            <h3 class="news__title">
+              Особенности альпинизма на Камчатке. Все о Ключевой Сопке
+            </h3>
+            <time class="news__date" datetime="20-12-2019">20 декабря, 2019</time>
+          </a>
+        </li>
+        <li class="news__item">
+          <a class="news__link" href="#">
+            <h3 class="news__title">
+              Что происходит с человеком на высоте более 3000 метров?
+            </h3>
+            <time class="news__date" datetime="15-12-2019">15 декабря, 2019</time>
+          </a>
+        </li>
+        <li class="news__item">
+          <a class="news__link" href="#">
+            <h3 class="news__title">
+              Что происходит с человеком на высоте более 3000 метров?
+            </h3>
+            <time class="news__date" datetime="15-12-2019">15 декабря, 2019</time>
+          </a>
+        </li>
+      </ul>
+      <a class="news__show-more" href="#">
+        Читать все новости
+      </a>
+    </section>
+    <section class="blog__content content">
+      <h3 class="content__title">
+        Как подготовиться к первому восхождению на вершину
+      </h3>
+      <img class="content__image" src="img/blog/photo-77.jpg" width="700" height="287" alt="Восхождение троих альпенистов.">
+      <time class="content__date" datetime="15-01-2020">15 января, 2020</time>
+      <p class="content__text">
+        Перед тем, как отправиться на покорение вершины горы, нужно не только привести в порядок свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на них приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на полпути. Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.
+      </p>
+      <p class="content__text">
+        Как должны проходить тренировки? В первую очередь, тренировки должны проходить постоянно, эффективно и интенсивно. Кроме того, нагрузка постепенно должна увеличиваться. В случае с бегом обязательно делать это с учетом пульса. Грамотно спланированный бег позволит не только сбросить вес, но и укрепит сердечную мышцу. При беге с высоким пульсом вы позволите организму привыкнуть к недостатку кислорода — то, с чем обязательно встретитесь в горах. Для укрепления физической подготовки и повышения выносливости также бегайте в горку или в быстром темпе поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до путешествия!
+      </p>
+    </section>
+  </article>
+  <section class="order">
+    <h2 class="order__title">
+      Нужна помощь с выбором тура?
+    </h2>
+    <p class="order__text">
+      Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет подходящий тур
+    </p>
+    <form class="order__form" method="post" enctype="multipart/form-data" action="#" autocomplete="off">
+      <label class="visually-hidden" for="order-username">
+        Имя.
+      </label>
+      <input class="order__input" type="text" id="order-username" name="order-username" placeholder="Имя">
+      <label class="visually-hidden" for="order-phone">
+        Телефон.
+      </label>
+      <input class="order__input" type="tel" id="order-phone" name="order-phone" placeholder="Телефон">
+      <label class="visually-hidden" for="order-mail">
+        E-mail.
+      </label>
+      <input class="order__input" type="email" id="order-mail" name="order-mail" placeholder="E-mail">
+      <button class="order__submit" type="submit">
+        Отправить
+      </button>
+    </form>
+    <p class="order__personal-data">
+      Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных
+    </p>
+    <img class="order__image" src="img/order/photo-33.jpg" width="683" height="690" alt="Вершины гор в облаках.">
+  </section>
+  <section class="contacts">
+    <h2 class="contacts__title">
+      Контакты
+    </h2>
+    <img class="contacts__map" src="img/contacts/map-office.png" width="600" height="457"
+         alt="Местоположение турагенства.">
+    <dl class="contacts__rows">
+      <dt class="contacts__row-name">
+        Адрес
+      </dt>
+      <dd class="contacts__row-content">
+        Санкт-Петербург, ул Большая Конюшенная, д 19
+      </dd>
+      <dt class="contacts__row-name">
+        Телефон:
+      </dt>
+      <dd class="contacts__row-content">
+        <a class="contacts__phone" href="tel:88007773325">
+          8 (800) 777-33-25
+        </a>
+      </dd>
+      <dt class="contacts__row-name">
+        E-mail
+      </dt>
+      <dd class="contacts__row-content">
+        <a class="contacts__contact-link" href="mailto:info@mountain.ru">
+          info@mountain.ru
+        </a>
+      </dd>
+      <dt class="contacts__row-content">
+        Социальные сети
+      </dt>
+      <dd class="contacts__row-content">
+        <ul class="contacts__social social">
+          <li class="social__item">
+            <a class="social__link" href="#">
+              Facebook
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              Instagram
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </dd>
+    </dl>
+  </section>
 </main>
+<footer class="footer">
+  <p class="footer__copyright">
+    Maroon © 2020 Все права защищены
+  </p>
+  <a class="footer__logo" href="#">
+    <img class="footer__logo-image" src="img/logo.svg" width="99" height="21" alt="Логотип сайта.">
+  </a>
+  <a class="footer__privacy" href="#">
+    Политика конфиденциальности
+  </a>
+</footer>
 </body>
 </html>

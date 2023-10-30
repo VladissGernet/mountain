@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Туристический клуб «Mountain».</title>
+</head>
+<body>
+<header class="header">
+  <nav class="header__navigation">
+    <a class="header__logo-link" href="#">
+      <img class="header__logo-image" src="img/logo.svg" width="99" height="21"
+           alt="Логотип туристического клуба «Mountain».">
+    </a>
+    <ul class="header__navigation navigation">
+      <li class="navigation__item">
+        <a class="navigation__link" href="#">
+          О нас
+        </a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#">
+          Туры
+        </a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#">
+          Подбор тура
+        </a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#">
+          Блог
+        </a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#">
+          Контакты
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <a class="header__phone" href="tel:88007773325">
+    8 (800) 777-33-25
+  </a>
+  <label class="visually-hidden" for="header-search">
+    Поиск по сайту.
+  </label>
+  <input class="header__search" type="search" id="header-search" name="header-search">
+  <button class="header__user" type="button">
+    <span class="visually-hidden">Профиль пользователя.</span>
+  </button>
+</header>
+<main>
+  <h1 class="visually-hidden">
+    Главная страница сайта туристического клуба «Mountain».
+  </h1>
+  <section class="info">
+    <h2 class="visually-hidden">
+      Информация о наших турах.
+    </h2>
+    <section class="info__promo promo">
+      <h3 class="promo__title">
+        Эверест
+      </h3>
+      <a class="promo" href="#">
+        Подробнее
+      </a>
+    </section>
+    <section class="info__about about">
+      <h3 class="about__title">
+        Туры с восхождением на вершины мира
+      </h3>
+      <p class="about__text">
+        Мы являемся экспертами в организации альпинистских туров для опытных альпинистов и для новичков. Вы можете доверить нам полную организацию вашего приключения от А до Я и быть уверенными в качестве и безопасности восхождения.
+      </p>
+      <p class="about__text">
+        Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет, визу, бронирование проживания, питание, оборудование, необходимое для восхождения, опытных гидов, полное сопровождение.
+      </p>
+      <img class="about__map" src="img/about/map.png" width="798" height="375" alt="Карта с местоположением вершин для восхождения.">
+    </section>
+    <section class="popular__popular popular">
+      <h3 class="popular__title">
+        Популярные туры
+      </h3>
+      <ul class="popular__list">
+        <li class="popular__item">
+          <h4 class="popular__title">
+            Белуха
+          </h4>
+          <p class="popular__location">
+            Россия
+          </p>
+          <button class="popular__favorite" type="button">
+            <span class="visually-hidden">Добавить в избранное.</span>
+          </button>
+          <table class="popular__characteristics">
+            <tbody>
+            <tr>
+              <td>4506 м</td>
+              <td>12 дней</td>
+              <td>от 45000 ₽</td>
+            </tr>
+            </tbody>
+          </table>
+          <p class="popular__difficulty">
+            Средний уровень
+          </p>
+          <img class="popular__image" src="img/popular/photo-55.jpg" width="370" height="326" alt="Фото вершин Белухи.">
+        </li>
+        <li class="popular__item">
+          <h4 class="popular__title">
+            Эльбрус
+          </h4>
+          <p class="popular__location">
+            Россия
+          </p>
+          <button class="popular__favorite" type="button">
+            <span class="visually-hidden">Добавить в избранное.</span>
+          </button>
+          <table class="popular__characteristics">
+            <tbody>
+            <tr>
+              <td>5642 м</td>
+              <td>10 дней</td>
+              <td>от 25 000 ₽</td>
+            </tr>
+            </tbody>
+          </table>
+          <p class="popular__difficulty">
+            Средний уровень
+          </p>
+          <img class="popular__image" src="img/popular/photo-83.jpg" width="370" height="326"
+               alt="Фото на вершине Эльбруса.">
+        </li>
+        <li class="popular__item">
+          <h4 class="popular__title">
+            Килиманджаро
+          </h4>
+          <p class="popular__location">
+            Танзания
+          </p>
+          <button class="popular__favorite" type="button">
+            <span class="visually-hidden">Добавить в избранное.</span>
+          </button>
+          <table class="popular__characteristics">
+            <tbody>
+            <tr>
+              <td>5895 м</td>
+              <td>4 дня</td>
+              <td>от 55000 ₽</td>
+            </tr>
+            </tbody>
+          </table>
+          <p class="popular__difficulty">
+            Простой уровень
+          </p>
+          <img class="popular__image" src="img/popular/photo-43.jpg" width="370" height="326" alt="Фото вершин Килиманджаро.">
+        </li>
+      </ul>
+      <button class="popular__slider-button slider-button__previous" type="button">
+        <span class="visually-hidden">Предыдущий слайд.</span>
+      </button>
+      <button class="popular__slider-button slider-button__next" type="button">
+        <span class="visually-hidden">Следующий слайд.</span>
+      </button>
+    </section>
+    <section class="popular__tours-list tours-list">
+      <h3 class="visually-hidden">
+        Список туров в России.
+      </h3>
+      <p class="tours-list__location">
+        Россия
+      </p>
+      <p class="tours-list__description">
+        Более 15 туров для альпинистов всех уровней
+      </p>
+      <table class="tours-list__table">
+        <tbody>
+        <tr>
+          <th class="tours-list__head">Вершина</th>
+          <th class="tours-list__head">Высота</th>
+          <th class="tours-list__head">Уровень</th>
+          <th class="tours-list__head">Стоимость</th>
+        </tr>
+        <tr>
+          <td>Эльбрус</td>
+          <td>5642 м</td>
+          <td>Средний</td>
+          <td>от 25 000 ₽</td>
+        </tr>
+        <tr>
+          <td>Казбек</td>
+          <td>5033 м</td>
+          <td>Сложный</td>
+          <td>от 30 000 ₽</td>
+        </tr>
+        <tr>
+          <td>Белуха</td>
+          <td>4506 м</td>
+          <td>Простой</td>
+          <td>от 20 000 ₽</td>
+        </tr>
+        <tr>
+          <td>Дыхтау</td>
+          <td>5204 м</td>
+          <td>Сложный</td>
+          <td>от 40 000 ₽</td>
+        </tr>
+        </tbody>
+      </table>
+      <a class="tours-list__show-all" href="#">
+        Смотреть все
+      </a>
+    </section>
+  </section>
+
+</main>
+</body>
+</html>

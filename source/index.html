@@ -39,10 +39,10 @@
         </a>
       </li>
     </ul>
+    <a class="header__phone" href="tel:88007773325">
+      8 (800) 777-33-25
+    </a>
   </nav>
-  <a class="header__phone" href="tel:88007773325">
-    8 (800) 777-33-25
-  </a>
   <label class="visually-hidden" for="header-search">
     Поиск по сайту.
   </label>
@@ -59,6 +59,8 @@
     <h2 class="promo__title">
       Эверест
     </h2>
+    <img src="img/promo/photo-76.jpg" width="1366" height="650"
+         alt="Малоснежные вершины горы Эверест на фоне облачного неба">
     <a class="promo" href="#">
       Подробнее
     </a>
@@ -81,32 +83,10 @@
     </h2>
     <ul class="popular-tours__list">
       <li class="popular-tours__item">
-        <h4 class="popular-tours__title">
-          Белуха
-        </h4>
-        <p class="popular-tours__location">
-          Россия
-        </p>
-        <button class="popular-tours__favorite" type="button">
-          <span class="visually-hidden">Добавить в избранное.</span>
-        </button>
-        <table class="popular-tours__characteristics">
-          <tbody>
-          <tr>
-            <td>4506 м</td>
-            <td>12 дней</td>
-            <td>от 45000 ₽</td>
-          </tr>
-          </tbody>
-        </table>
-        <p class="popular-tours__difficulty">
-          Средний уровень
-        </p>
-        <img class="popular-tours__image" src="img/popular-tours/photo-55.jpg" width="370" height="326" alt="Фото вершин Белухи.">
-      </li>
-      <li class="popular-tours__item">
         <h3 class="popular-tours__title">
-          Эльбрус
+          <a class="popular-tours__title-link" href="#">
+            Белуха
+          </a>
         </h3>
         <p class="popular-tours__location">
           Россия
@@ -114,15 +94,33 @@
         <button class="popular-tours__favorite" type="button">
           <span class="visually-hidden">Добавить в избранное.</span>
         </button>
-        <table class="popular-tours__characteristics">
-          <tbody>
-          <tr>
-            <td>5642 м</td>
-            <td>10 дней</td>
-            <td>от 25 000 ₽</td>
-          </tr>
-          </tbody>
-        </table>
+        <ul class="popular-tours__characteristics">
+          <li class="popular-tours__characteristic">4506 м</li>
+          <li class="popular-tours__characteristic">12 дней</li>
+          <li class="popular-tours__characteristic">от 45 000 ₽</li>
+        </ul>
+        <p class="popular-tours__difficulty">
+          Средний уровень
+        </p>
+        <img class="popular-tours__image" src="img/popular-tours/photo-55.jpg" width="370" height="326" alt="Фото вершин Белухи.">
+      </li>
+      <li class="popular-tours__item">
+        <h3 class="popular-tours__title">
+          <a class="popular-tours__title-link" href="#">
+            Эльбрус
+          </a>
+        </h3>
+        <p class="popular-tours__location">
+          Россия
+        </p>
+        <button class="popular-tours__favorite" type="button">
+          <span class="visually-hidden">Добавить в избранное.</span>
+        </button>
+        <ul class="popular-tours__characteristics">
+          <li class="popular-tours__characteristic">5642 м</li>
+          <li class="popular-tours__characteristic">10 дней</li>
+          <li class="popular-tours__characteristic">от 25 000 ₽</li>
+        </ul>
         <p class="popular-tours__difficulty">
           Средний уровень
         </p>
@@ -130,24 +128,22 @@
              alt="Фото на вершине Эльбруса.">
       </li>
       <li class="popular-tours__item">
-        <h4 class="popular-tours__title">
-          Килиманджаро
-        </h4>
+        <h3 class="popular-tours__title">
+          <a class="popular-tours__title-link" href="#">
+            Килиманджаро
+          </a>
+        </h3>
         <p class="popular-tours__location">
           Танзания
         </p>
         <button class="popular-tours__favorite" type="button">
           <span class="visually-hidden">Добавить в избранное.</span>
         </button>
-        <table class="popular-tours__characteristics">
-          <tbody>
-          <tr>
-            <td>5895 м</td>
-            <td>4 дня</td>
-            <td>от 55000 ₽</td>
-          </tr>
-          </tbody>
-        </table>
+        <ul class="popular-tours__characteristics">
+          <li class="popular-tours__characteristic">5895 м</li>
+          <li class="popular-tours__characteristic">4 дня</li>
+          <li class="popular-tours__characteristic">от 55 000 ₽</li>
+        </ul>
         <p class="popular-tours__difficulty">
           Простой уровень
         </p>
@@ -162,9 +158,9 @@
     </button>
   </section>
   <section class="prices">
-    <h3 class="visually-hidden">
+    <h2 class="visually-hidden">
       Стоимость туров.
-    </h3>
+    </h2>
     <p class="prices__location">
       Россия
     </p>
@@ -216,42 +212,42 @@
     <ul class="news__list">
       <li class="news__item">
         <a class="news__link" href="#">
-          <h3 class="news__title">
-            Как подготовиться к первому восхождению на вершину
-          </h3>
           <time class="news__date" datetime="15-01-2020">15 января, 2020</time>
+          <p class="news__description">
+            Как подготовиться к первому восхождению на вершину
+          </p>
         </a>
       </li>
       <li class="news__item">
         <a class="news__link" href="#">
-          <h3 class="news__title">
-            Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля
-          </h3>
           <time class="news__date" datetime="10-01-2020">10 января, 2020</time>
+          <p class="news__description">
+            Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля
+          </p>
         </a>
       </li>
       <li class="news__item">
         <a class="news__link" href="#">
-          <h3 class="news__title">
-            Особенности альпинизма на Камчатке. Все о Ключевой Сопке
-          </h3>
           <time class="news__date" datetime="20-12-2019">20 декабря, 2019</time>
+          <p class="news__description">
+            Особенности альпинизма на Камчатке. Все о Ключевой Сопке
+          </p>
         </a>
       </li>
       <li class="news__item">
         <a class="news__link" href="#">
-          <h3 class="news__title">
-            Что происходит с человеком на высоте более 3000 метров?
-          </h3>
           <time class="news__date" datetime="15-12-2019">15 декабря, 2019</time>
+          <p class="news__description">
+            Что происходит с человеком на высоте более 3000 метров?
+          </p>
         </a>
       </li>
       <li class="news__item">
         <a class="news__link" href="#">
-          <h3 class="news__title">
-            Что происходит с человеком на высоте более 3000 метров?
-          </h3>
           <time class="news__date" datetime="15-12-2019">15 декабря, 2019</time>
+          <p class="news__description">
+            Что происходит с человеком на высоте более 3000 метров?
+          </p>
         </a>
       </li>
     </ul>
@@ -265,10 +261,18 @@
       <img class="content__image" src="img/blog/photo-77.jpg" width="700" height="287" alt="Восхождение троих альпенистов.">
       <time class="content__date" datetime="15-01-2020">15 января, 2020</time>
       <p class="content__text">
-        Перед тем, как отправиться на покорение вершины горы, нужно не только привести в порядок свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на них приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на полпути. Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.
+        Перед тем, как отправиться на покорение вершины горы, нужно не только привести в порядок свою физическую
+        форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на них приходится
+        максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на полпути. Чтобы
+        этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.
       </p>
       <p class="content__text">
-        Как должны проходить тренировки? В первую очередь, тренировки должны проходить постоянно, эффективно и интенсивно. Кроме того, нагрузка постепенно должна увеличиваться. В случае с бегом обязательно делать это с учетом пульса. Грамотно спланированный бег позволит не только сбросить вес, но и укрепит сердечную мышцу. При беге с высоким пульсом вы позволите организму привыкнуть к недостатку кислорода — то, с чем обязательно встретитесь в горах. Для укрепления физической подготовки и повышения выносливости также бегайте в горку или в быстром темпе поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до путешествия!
+        Как должны проходить тренировки? В первую очередь, тренировки должны проходить постоянно, эффективно и
+        интенсивно. Кроме того, нагрузка постепенно должна увеличиваться. В случае с бегом обязательно делать это с
+        учетом пульса. Грамотно спланированный бег позволит не только сбросить вес, но и укрепит сердечную мышцу.
+        При беге с высоким пульсом вы позволите организму привыкнуть к недостатку кислорода — то, с чем обязательно
+        встретитесь в горах. Для укрепления физической подготовки и повышения выносливости также бегайте в горку или
+        в быстром темпе поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до путешествия!
       </p>
     </article>
   </section>
@@ -299,7 +303,6 @@
     <p class="order__personal-data">
       Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных
     </p>
-    <img class="order__image" src="img/order/photo-33.jpg" width="683" height="690" alt="Вершины гор в облаках.">
   </section>
   <section class="contacts">
     <h2 class="contacts__title">
@@ -312,7 +315,9 @@
         Адрес
       </dt>
       <dd class="contacts__row-content">
-        Санкт-Петербург, ул Большая Конюшенная, д 19
+        <address class="contacts__location">
+          Санкт-Петербург, ул Большая Конюшенная, д 19
+        </address>
       </dd>
       <dt class="contacts__row-name">
         Телефон:

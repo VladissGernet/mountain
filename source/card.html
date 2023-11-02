@@ -8,7 +8,7 @@
 <body>
 <header class="header">
   <nav class="header__navigation">
-    <a class="header__logo-link" href="#">
+    <a class="header__logo-link" href="index.html">
       <img class="header__logo-image" src="img/logo.svg" width="99" height="21"
            alt="Логотип туристического клуба «Mountain».">
     </a>
@@ -53,18 +53,13 @@
 </header>
 <main>
   <h1 class="visually-hidden">
-    Страница описания тура на Эльбрус.
+    Эльбрус
   </h1>
-  <section class="promo">
-    <h2 class="promo__title">
-      Эльбрус
-    </h2>
-    <img src="img/promo/photo-07.jpg" width="1366" height="522"
-         alt="Малоснежные вершины горы Эльбруса на фоне облачного неба">
-    <a class="promo" href="#">
-      Забронировать тур
-    </a>
-  </section>
+  <img src="img/promo/photo-07.jpg" width="1366" height="522"
+       alt="Снежные вершины горы Эльбрус и синее безоблачное небо.">
+  <a class="promo" href="#">
+    Забронировать тур
+  </a>
   <section class="description">
     <h2 class="description__title">
       Описание тура
@@ -286,10 +281,11 @@
       <label class="visually-hidden" for="send-photo">
         Прикрепить фото.
       </label>
-      <input class="new-review__send-photo" type="file" id="send-photo" name="send-photo" placeholder="Прикрепить фото.">
-      <p class="new-review__new-photo-name">
-        img_223.jpg
-      </p>
+      <input class="new-review__send-photo" type="file" id="send-photo" name="send-photo"
+             placeholder="Прикрепить фото." accept=".jpg, .jpeg, .png">
+      <ul class="new-review__attach-photos-list">
+        <li class="new-review__attached-photo">img_223.jpg</li>
+      </ul>
       <button class="new-review__submit" type="submit">
         Отправить
       </button>
@@ -380,7 +376,7 @@
   <p class="footer__copyright">
     Maroon © 2020 Все права защищены
   </p>
-  <a class="footer__logo" href="#">
+  <a class="footer__logo" href="index.html">
     <img class="footer__logo-image" src="img/logo.svg" width="99" height="21" alt="Логотип сайта.">
   </a>
   <a class="footer__privacy" href="#">
